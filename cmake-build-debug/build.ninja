@@ -63,6 +63,13 @@ build CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\data_types_and_structures.dir
   OBJECT_FILE_DIR = CMakeFiles\data_types_and_structures.dir\Sorting
 
+build CMakeFiles/data_types_and_structures.dir/Sorting/bubble.cpp.obj: CXX_COMPILER__data_types_and_structures_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/bubble.cpp || cmake_object_order_depends_target_data_types_and_structures
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\data_types_and_structures.dir\Sorting\bubble.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\data_types_and_structures.dir
+  OBJECT_FILE_DIR = CMakeFiles\data_types_and_structures.dir\Sorting
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target data_types_and_structures
@@ -71,7 +78,7 @@ build CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj: CXX_CO
 #############################################
 # Link the executable data_types_and_structures.exe
 
-build data_types_and_structures.exe: CXX_EXECUTABLE_LINKER__data_types_and_structures_Debug CMakeFiles/data_types_and_structures.dir/Sorting/selection.cpp.obj CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj
+build data_types_and_structures.exe: CXX_EXECUTABLE_LINKER__data_types_and_structures_Debug CMakeFiles/data_types_and_structures.dir/Sorting/selection.cpp.obj CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj CMakeFiles/data_types_and_structures.dir/Sorting/bubble.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

@@ -7,4 +7,5 @@ add_executable(data_types_and_structures
         Sorting/selection.cpp
         README.md
         Sorting/insertion.cpp
+        Sorting/bubble.cpp
 )
