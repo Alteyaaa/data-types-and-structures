@@ -1,0 +1,8 @@
+# ninja log v6
+251	300	7788634355903741	data_types_and_structures.exe	8f7ea2eb394708ff
+3	193	7788602381105437	CMakeFiles/data_types_and_structures.dir/Sorting/test.cpp.obj	1696bd7145585e02
+3	251	7788634353423750	CMakeFiles/data_types_and_structures.dir/Sorting/first.cpp.obj	ddb8aa07d3b4cbda
+1	266	7788646892808110	build.ninja	c888717b82e8c666
+1	266	7788646892788110	C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/cmake_install.cmake	c888717b82e8c666
+3	191	7788661203504404	CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj	83eef1cf82b483f0
+1	234	7788661203484392	CMakeFiles/data_types_and_structures.dir/Sorting/selection.cpp.obj	841314fa21312b99

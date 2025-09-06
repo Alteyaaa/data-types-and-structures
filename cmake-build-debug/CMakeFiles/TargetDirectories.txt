@@ -1,0 +1,3 @@
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/data_types_and_structures.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
