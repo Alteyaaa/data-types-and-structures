@@ -41,53 +41,249 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target data_types_and_structures
+# Object build statements for EXECUTABLE target A
 
 
 #############################################
-# Order-only phony target for data_types_and_structures
+# Order-only phony target for A
 
-build cmake_object_order_depends_target_data_types_and_structures: phony || .
+build cmake_object_order_depends_target_A: phony || .
 
-build CMakeFiles/data_types_and_structures.dir/Sorting/selection.cpp.obj: CXX_COMPILER__data_types_and_structures_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/selection.cpp || cmake_object_order_depends_target_data_types_and_structures
+build CMakeFiles/A.dir/Sorting/A.cpp.obj: CXX_COMPILER__A_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/A.cpp || cmake_object_order_depends_target_A
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\data_types_and_structures.dir\Sorting\selection.cpp.obj.d
+  DEP_FILE = CMakeFiles\A.dir\Sorting\A.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\data_types_and_structures.dir
-  OBJECT_FILE_DIR = CMakeFiles\data_types_and_structures.dir\Sorting
-
-build CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj: CXX_COMPILER__data_types_and_structures_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/insertion.cpp || cmake_object_order_depends_target_data_types_and_structures
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\data_types_and_structures.dir\Sorting\insertion.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\data_types_and_structures.dir
-  OBJECT_FILE_DIR = CMakeFiles\data_types_and_structures.dir\Sorting
-
-build CMakeFiles/data_types_and_structures.dir/Sorting/bubble.cpp.obj: CXX_COMPILER__data_types_and_structures_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/bubble.cpp || cmake_object_order_depends_target_data_types_and_structures
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\data_types_and_structures.dir\Sorting\bubble.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\data_types_and_structures.dir
-  OBJECT_FILE_DIR = CMakeFiles\data_types_and_structures.dir\Sorting
+  OBJECT_DIR = CMakeFiles\A.dir
+  OBJECT_FILE_DIR = CMakeFiles\A.dir\Sorting
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target data_types_and_structures
+# Link build statements for EXECUTABLE target A
 
 
 #############################################
-# Link the executable data_types_and_structures.exe
+# Link the executable A.exe
 
-build data_types_and_structures.exe: CXX_EXECUTABLE_LINKER__data_types_and_structures_Debug CMakeFiles/data_types_and_structures.dir/Sorting/selection.cpp.obj CMakeFiles/data_types_and_structures.dir/Sorting/insertion.cpp.obj CMakeFiles/data_types_and_structures.dir/Sorting/bubble.cpp.obj
+build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/Sorting/A.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\data_types_and_structures.dir
+  OBJECT_DIR = CMakeFiles\A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = data_types_and_structures.exe
-  TARGET_IMPLIB = libdata_types_and_structures.dll.a
-  TARGET_PDB = data_types_and_structures.exe.dbg
+  TARGET_FILE = A.exe
+  TARGET_IMPLIB = libA.dll.a
+  TARGET_PDB = A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target B
+
+
+#############################################
+# Order-only phony target for B
+
+build cmake_object_order_depends_target_B: phony || .
+
+build CMakeFiles/B.dir/Sorting/B.cpp.obj: CXX_COMPILER__B_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/B.cpp || cmake_object_order_depends_target_B
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\B.dir\Sorting\B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\B.dir
+  OBJECT_FILE_DIR = CMakeFiles\B.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B
+
+
+#############################################
+# Link the executable B.exe
+
+build B.exe: CXX_EXECUTABLE_LINKER__B_Debug CMakeFiles/B.dir/Sorting/B.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = B.exe
+  TARGET_IMPLIB = libB.dll.a
+  TARGET_PDB = B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target C
+
+
+#############################################
+# Order-only phony target for C
+
+build cmake_object_order_depends_target_C: phony || .
+
+build CMakeFiles/C.dir/Sorting/C.cpp.obj: CXX_COMPILER__C_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/C.cpp || cmake_object_order_depends_target_C
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\C.dir\Sorting\C.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C
+
+
+#############################################
+# Link the executable C.exe
+
+build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/Sorting/C.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C.exe
+  TARGET_IMPLIB = libC.dll.a
+  TARGET_PDB = C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D
+
+
+#############################################
+# Order-only phony target for D
+
+build cmake_object_order_depends_target_D: phony || .
+
+build CMakeFiles/D.dir/Sorting/D.cpp.obj: CXX_COMPILER__D_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/D.cpp || cmake_object_order_depends_target_D
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\D.dir\Sorting\D.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D.dir
+  OBJECT_FILE_DIR = CMakeFiles\D.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D
+
+
+#############################################
+# Link the executable D.exe
+
+build D.exe: CXX_EXECUTABLE_LINKER__D_Debug CMakeFiles/D.dir/Sorting/D.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D.exe
+  TARGET_IMPLIB = libD.dll.a
+  TARGET_PDB = D.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target E
+
+
+#############################################
+# Order-only phony target for E
+
+build cmake_object_order_depends_target_E: phony || .
+
+build CMakeFiles/E.dir/Sorting/E.cpp.obj: CXX_COMPILER__E_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/E.cpp || cmake_object_order_depends_target_E
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\E.dir\Sorting\E.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\E.dir
+  OBJECT_FILE_DIR = CMakeFiles\E.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target E
+
+
+#############################################
+# Link the executable E.exe
+
+build E.exe: CXX_EXECUTABLE_LINKER__E_Debug CMakeFiles/E.dir/Sorting/E.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\E.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E.exe
+  TARGET_IMPLIB = libE.dll.a
+  TARGET_PDB = E.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target F
+
+
+#############################################
+# Order-only phony target for F
+
+build cmake_object_order_depends_target_F: phony || .
+
+build CMakeFiles/F.dir/Sorting/F.cpp.obj: CXX_COMPILER__F_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/F.cpp || cmake_object_order_depends_target_F
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\F.dir\Sorting\F.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\F.dir
+  OBJECT_FILE_DIR = CMakeFiles\F.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target F
+
+
+#############################################
+# Link the executable F.exe
+
+build F.exe: CXX_EXECUTABLE_LINKER__F_Debug CMakeFiles/F.dir/Sorting/F.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\F.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = F.exe
+  TARGET_IMPLIB = libF.dll.a
+  TARGET_PDB = F.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target G
+
+
+#############################################
+# Order-only phony target for G
+
+build cmake_object_order_depends_target_G: phony || .
+
+build CMakeFiles/G.dir/Sorting/G.cpp.obj: CXX_COMPILER__G_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/G.cpp || cmake_object_order_depends_target_G
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\G.dir\Sorting\G.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\G.dir
+  OBJECT_FILE_DIR = CMakeFiles\G.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target G
+
+
+#############################################
+# Link the executable G.exe
+
+build G.exe: CXX_EXECUTABLE_LINKER__G_Debug CMakeFiles/G.dir/Sorting/G.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\G.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = G.exe
+  TARGET_IMPLIB = libG.dll.a
+  TARGET_PDB = G.exe.dbg
 
 
 #############################################
@@ -115,7 +311,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build data_types_and_structures: phony data_types_and_structures.exe
+build A: phony A.exe
+
+build B: phony B.exe
+
+build C: phony C.exe
+
+build D: phony D.exe
+
+build E: phony E.exe
+
+build F: phony F.exe
+
+build G: phony G.exe
 
 # =============================================================================
 # Folder targets.
@@ -132,7 +340,7 @@ build codegen: phony
 #############################################
 # Folder: C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug
 
-build all: phony data_types_and_structures.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe
 
 # =============================================================================
 # Built-in targets

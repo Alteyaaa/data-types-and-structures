@@ -1,3 +1,9 @@
-C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/data_types_and_structures.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/A.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/B.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/C.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/D.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/E.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/F.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/G.dir
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
