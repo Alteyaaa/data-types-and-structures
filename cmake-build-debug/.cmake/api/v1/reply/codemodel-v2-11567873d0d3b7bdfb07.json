@@ -21,7 +21,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -42,7 +44,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -95,6 +99,20 @@
 					"id" : "G::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-G-Debug-49ac0058c58469b9807f.json",
 					"name" : "G",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "H::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-H-Debug-7386068a4b7dfe27eddb.json",
+					"name" : "H",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "I::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-I-Debug-ff5a255891a3f3cc4441.json",
+					"name" : "I",
 					"projectIndex" : 0
 				}
 			]
