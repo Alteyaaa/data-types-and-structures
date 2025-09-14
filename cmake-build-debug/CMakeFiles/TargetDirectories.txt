@@ -7,5 +7,8 @@ C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debu
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/G.dir
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/H.dir
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/I.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/J.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/K.dir
+C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/L.dir
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

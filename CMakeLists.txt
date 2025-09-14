@@ -12,3 +12,7 @@ add_executable(F Sorting/F.cpp)
 add_executable(G Sorting/G.cpp)
 add_executable(H Sorting/H.cpp)
 add_executable(I Sorting/I.cpp)
+add_executable(J Sorting/J.cpp)
+add_executable(K Sorting/K.cpp)
+add_executable(L Sorting/L.cpp)
+

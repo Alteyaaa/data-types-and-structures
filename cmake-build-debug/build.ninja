@@ -355,6 +355,111 @@ build I.exe: CXX_EXECUTABLE_LINKER__I_Debug CMakeFiles/I.dir/Sorting/I.cpp.obj
   TARGET_IMPLIB = libI.dll.a
   TARGET_PDB = I.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target J
+
+
+#############################################
+# Order-only phony target for J
+
+build cmake_object_order_depends_target_J: phony || .
+
+build CMakeFiles/J.dir/Sorting/J.cpp.obj: CXX_COMPILER__J_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/J.cpp || cmake_object_order_depends_target_J
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\J.dir\Sorting\J.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\J.dir
+  OBJECT_FILE_DIR = CMakeFiles\J.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target J
+
+
+#############################################
+# Link the executable J.exe
+
+build J.exe: CXX_EXECUTABLE_LINKER__J_Debug CMakeFiles/J.dir/Sorting/J.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\J.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = J.exe
+  TARGET_IMPLIB = libJ.dll.a
+  TARGET_PDB = J.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target K
+
+
+#############################################
+# Order-only phony target for K
+
+build cmake_object_order_depends_target_K: phony || .
+
+build CMakeFiles/K.dir/Sorting/K.cpp.obj: CXX_COMPILER__K_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/K.cpp || cmake_object_order_depends_target_K
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\K.dir\Sorting\K.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\K.dir
+  OBJECT_FILE_DIR = CMakeFiles\K.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target K
+
+
+#############################################
+# Link the executable K.exe
+
+build K.exe: CXX_EXECUTABLE_LINKER__K_Debug CMakeFiles/K.dir/Sorting/K.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\K.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = K.exe
+  TARGET_IMPLIB = libK.dll.a
+  TARGET_PDB = K.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target L
+
+
+#############################################
+# Order-only phony target for L
+
+build cmake_object_order_depends_target_L: phony || .
+
+build CMakeFiles/L.dir/Sorting/L.cpp.obj: CXX_COMPILER__L_unscanned_Debug C$:/Users/Kristina/Documents/MyProject/data-types-and-structures/Sorting/L.cpp || cmake_object_order_depends_target_L
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\L.dir\Sorting\L.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\L.dir
+  OBJECT_FILE_DIR = CMakeFiles\L.dir\Sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target L
+
+
+#############################################
+# Link the executable L.exe
+
+build L.exe: CXX_EXECUTABLE_LINKER__L_Debug CMakeFiles/L.dir/Sorting/L.cpp.obj
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\L.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = L.exe
+  TARGET_IMPLIB = libL.dll.a
+  TARGET_PDB = L.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -399,6 +504,12 @@ build H: phony H.exe
 
 build I: phony I.exe
 
+build J: phony J.exe
+
+build K: phony K.exe
+
+build L: phony L.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -414,7 +525,7 @@ build codegen: phony
 #############################################
 # Folder: C:/Users/Kristina/Documents/MyProject/data-types-and-structures/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe
 
 # =============================================================================
 # Built-in targets
